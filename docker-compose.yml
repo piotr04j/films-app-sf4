@@ -43,7 +43,7 @@ services:
           PMA_HOST: mysql
           PMA_PORT: 3306
         ports:
-            - 8080:90
+            - 8080:80
         links:
             - mysql
 
